@@ -7,15 +7,15 @@ __author__ = "Adrián Gerpe Val"
 Exercicio 15. Escribe un script que pida ao usuario os coeficientes dunha ecuación de segundo grao e calcula as dúas solucións. Mostra as dúas solucións por pantalla.
 '''
 
-# Pedimos os coeficientes ao usuario
+# Pedimos os coeficientes ao usuario: 
 A = float(input("Introduce o coeficiente A: "))
 B = float(input("Introduce o coeficiente B: "))
 C = float(input("Introduce o coeficiente C: "))
 
-# Calculamos o discriminante
+# Calculamos o discriminante: 
 discriminante = B**2 - 4*A*C
 
-# Calculamos as solucions
+# Calculamos as solucions: 
 if discriminante >= 0:
     solucion1 = (-B + discriminante**0.5) / (2*A)
     solucion2 = (-B - discriminante**0.5) / (2*A)
